@@ -14,7 +14,13 @@ const Gallery = () => {
 
         <div className="w-full grid grid-cols-1 md:grid-cols-3 justify-center gap-1">
           <div className="bg-black w-full h-80">
-            <Image src="/hair/hair-1.jpg" alt="1" width={2000} height={2000} />
+            <Image
+              src="/hair/hair-1.jpg"
+              alt="1"
+              width={2000}
+              height={2000}
+              className="w-full h-full object-covers"
+            />
           </div>
           <div className="bg-black w-full h-110">1</div>
           <div className="bg-black w-full h-65">1</div>
