@@ -8,7 +8,7 @@ const Gallery = () => {
         <h1 className="text-xl md:text-3xl lg:text-5xl lg:text-center font-bold text-gray-900">
           Gallery
         </h1>
-        <p className="text-sm md:text-base lg:text-lg text-gray-600">
+        <p className="text-sm md:text-base lg:text-lg font-semibold text-gray-600">
           Here you can see a selection of my work.
         </p>
 
