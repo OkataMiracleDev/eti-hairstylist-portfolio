@@ -3,7 +3,7 @@ import PhotoCollage from "./PhotoCollage/PhotoCollage";
 
 const About = () => {
   return (
-    <div className="lg:-mt-10 flex flex-col gap-8">
+    <div className="mt-40 md:mt-0 lg:-mt-10 flex flex-col gap-8">
       <h1 className="text-xl md:text-3xl lg:text-5xl lg:text-center font-bold text-gray-900">
         About Me &amp; My Creation
       </h1>

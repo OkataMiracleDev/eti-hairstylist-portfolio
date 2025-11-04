@@ -9,11 +9,11 @@ const Navbar = () => {
       <div className="flex justify-between items-center gap-8 md:gap-10 py-4 md:py-8 w-full">
         <div className="h-10">
           <Image
-            src={"/logo/logomark.png"}
+            src={"/logo/logo-mobile.png"}
             width={1000}
             height={1000}
             alt="logo"
-            className="w-full h-full object-contain"
+            className="w-[50%] md:w-full h-full object-contain"
           />
         </div>
 
