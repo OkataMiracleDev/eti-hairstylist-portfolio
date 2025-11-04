@@ -14,7 +14,7 @@ const HomeGallery = () => {
           height={2000}
           className="w-full h-full object-contain"
         />
-        <div className="absolute top-25 left-150 hover:rotate-12 transition-all duration-500 rotate-6">
+        <div className="absolute top-65 left-150 hover:rotate-12 transition-all duration-500 rotate-6">
           <Collage title="#1" image="/hair/hair-1.jpg" />
         </div>
         <div className="absolute top-50 left-5 hover:-rotate-12 transition-all duration-500 rotate-20">
