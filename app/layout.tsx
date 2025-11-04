@@ -17,16 +17,14 @@ export default function RootLayout({
   return (
     <html className="scroll-smooth transition-all duration-500" lang="en">
       <body
-        className={`${bric.className} circuit-wrapper antialiased relative min-h-screen`}
+        className={`${bric.className} circuit-wrapper antialiased relative `}
       >
         {/* Full-page background */}
         <div className="circuit-background -z-10"></div>
 
         {/* Foreground content */}
         <Navbar />
-        <main className="relative z-10" style={{ touchAction: "pan-y" }}>
-          {children}
-        </main>
+        <main className="relative z-10">{children}</main>
         <Footer />
       </body>
     </html>

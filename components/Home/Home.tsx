@@ -31,8 +31,8 @@ const Home = () => {
         <div className="hidden md:block w-full h-[300px] ">
           <Image
             src={"/logo/logo-mobile.png"}
-            width={2000}
-            height={1000}
+            width={500}
+            height={500}
             alt="style-by.eti"
             className="w-full h-full object-contain"
           />

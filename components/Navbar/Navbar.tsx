@@ -10,8 +10,8 @@ const Navbar = () => {
         <Link href="/" className="h-10">
           <Image
             src={"/logo/logo-mobile.png"}
-            width={1000}
-            height={1000}
+            width={500}
+            height={500}
             alt="logo"
             className="w-[50%] md:w-full h-full object-contain"
           />

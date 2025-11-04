@@ -14,8 +14,8 @@ const HomeGallery = () => {
         <Image
           src={"/svg/line-pc.svg"}
           alt="gallery-line"
-          width={2000}
-          height={2000}
+          width={500}
+          height={500}
           className="w-full h-full object-contain -z-10"
         />
         <div className="absolute top-65 left-150 hover:rotate-12 transition-all duration-500 rotate-6">
@@ -48,8 +48,8 @@ const HomeGallery = () => {
         <Image
           src={"/svg/line-mobile.svg"}
           alt="gallery-line"
-          width={2000}
-          height={2000}
+          width={500}
+          height={500}
           className="w-full h-full object-contain -z-10"
         />
         <div className="absolute right-20 md:right-60 top-43 md:top-26 active:rotate-12 transition-all duration-500 rotate-6">

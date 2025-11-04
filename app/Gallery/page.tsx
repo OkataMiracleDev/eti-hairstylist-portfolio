@@ -17,82 +17,82 @@ const Gallery = () => {
             <Image
               src="/hair/hair-1.jpg"
               alt="1"
-              width={1000}
-              height={1000}
+              width={500}
+              height={500}
               className="w-full h-full object-cover block active:scale-120 hover:scale-120 transition-all duration-500"
             />
-            <div className="w-full h-full absolute"></div>
+            <div className="w-full h-full absolute pointer-events-none"></div>
           </div>
           <div className="bg-black w-full h-110 overflow-hidden relative">
             <Image
               src="/hair/hair-3.jpg"
               alt="2"
-              width={1000}
-              height={1000}
+              width={500}
+              height={500}
               className="w-full h-full object-cover object-bottom block active:scale-120 hover:scale-120 transition-all duration-500"
             />
-            <div className="w-full h-full absolute"></div>
+            <div className="w-full h-full absolute pointer-events-none"></div>
           </div>
           <div className="bg-black w-full h-65 overflow-hidden relative">
             <Image
               src="/hair/hair-2.jpg"
               alt="3"
-              width={1000}
-              height={1000}
+              width={500}
+              height={500}
               className="w-full h-full object-cover object-center lg:object-top block active:scale-120 hover:scale-120 transition-all duration-500"
             />
-            <div className="w-full h-full absolute"></div>
+            <div className="w-full h-full absolute pointer-events-none"></div>
           </div>
           <div className="bg-black md:-mt-30 w-full h-80 overflow-hidden relative">
             <Image
               src="/hair/hair-4.jpg"
               alt="4"
-              width={1000}
-              height={1000}
+              width={500}
+              height={500}
               className="w-full h-full object-cover object-center block active:scale-120 hover:scale-120 transition-all duration-500"
             />
-            <div className="w-full h-full absolute"></div>
+            <div className="w-full h-full absolute pointer-events-none"></div>
           </div>
           <div className="bg-black w-full h-70 overflow-hidden relative">
             <Image
               src="/hair/hair-7.jpg"
               alt="5"
-              width={1000}
-              height={1000}
+              width={500}
+              height={500}
               className="w-full h-full object-cover object-center block active:scale-120 hover:scale-120 transition-all duration-500"
             />
-            <div className="w-full h-full absolute"></div>
+            <div className="w-full h-full absolute pointer-events-none"></div>
           </div>
           <div className="bg-black md:-mt-45 w-full h-100 overflow-hidden relative">
             <Image
               src="/hair/hair-6.jpg"
               alt="6"
-              width={1000}
-              height={1000}
+              width={500}
+              height={500}
               className="w-full h-full object-cover object-center block active:scale-120 hover:scale-120 transition-all duration-500"
             />
-            <div className="w-full h-full absolute"></div>
+            <div className="w-full h-full absolute pointer-events-none"></div>
           </div>
           <div className="bg-black md:hidden w-full h-65 overflow-hidden relative">
             <Image
               src="/hair/hair-8.jpg"
               alt="8"
-              width={1000}
-              height={1000}
+              width={500}
+              height={500}
               className="w-full h-full object-cover object-top block active:scale-120 hover:scale-120 transition-all duration-500"
             />
-            <div className="w-full h-full absolute"></div>
+            <div className="w-full h-full absolute pointer-events-none"></div>
           </div>
         </div>
         <div className="bg-black hidden md:flex md:-mt-4 w-full h-80 overflow-hidden relative">
           <Image
             src="/hair/hair-8.jpg"
             alt="8"
-            width={1000}
-            height={1000}
+            width={500}
+            height={500}
             className="w-full h-full object-cover object-top block active:scale-120 hover:scale-120 transition-all duration-500"
           />
-          <div className="w-full h-full absolute"></div>
+          <div className="w-full h-full absolute pointer-events-none"></div>
         </div>
       </div>
     </div>
