@@ -25,7 +25,7 @@ const Home = () => {
     initAOS();
   }, []);
   return (
-    <div className="md:pt-30">
+    <div className="pt-10 md:pt-30">
       <div className="flex flex-col space-y-10 md:space-y-15 lg:space-y-25">
         {/* Logo */}
         <div className="hidden md:block w-full h-[300px] ">
