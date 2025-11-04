@@ -3,6 +3,8 @@ import React from "react";
 import About from "./About/page";
 import Image from "next/image";
 import HomeGallery from "./HomeGallery/HomeGallery";
+import FlowerButton from "../flowerButton";
+import Link from "next/link";
 
 const Home = () => {
   return (
@@ -21,6 +23,9 @@ const Home = () => {
 
         <About />
         <HomeGallery />
+        <Link href="/" className="w-full mt-10 flex justify-center">
+          <FlowerButton text="Gallery" />
+        </Link>
       </div>
     </div>
   );
