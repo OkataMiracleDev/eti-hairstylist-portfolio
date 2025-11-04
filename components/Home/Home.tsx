@@ -25,7 +25,7 @@ const Home = () => {
     initAOS();
   }, []);
   return (
-    <div className="mt-30 mb-10 md:mt-30 lg:mt-10">
+    <div className="my-30 mb-10 md:mt-30 lg:mt-10">
       <div className="flex flex-col space-y-10 md:space-y-15 lg:space-y-25">
         {/* Logo */}
         <div className="hidden md:block w-full h-[300px] ">
