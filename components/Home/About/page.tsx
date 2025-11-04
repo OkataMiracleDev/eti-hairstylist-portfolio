@@ -45,18 +45,7 @@ const About = () => {
             experimenting with color, and creating pieces that feel bold yet
             authentic.
           </p>
-/*
-          <p>
-            Every client is a new opportunity to create something meaningful — a
-            look that reflects their personality and vision. Explore my
-            <span className="font-semibold text-gray-900">gallery</span> to see
-            my creative journey and past transformations, and feel free to reach
-            out for{" "}
-            <span className="font-semibold text-gray-900">
-              gigs, collaborations, or styling sessions
-            </span>
-            .
-          </p>*/
+
         </div>
 
         <PhotoCollage />
