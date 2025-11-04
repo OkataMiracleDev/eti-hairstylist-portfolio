@@ -18,7 +18,7 @@ const Contact = () => {
                 id="fullName"
                 autoComplete="name"
                 placeholder="Name"
-                className="block w-full rounded-md bg-white border-b-2 border-gray-300 shadow-md p-2 focus:outline-stone-800"
+                className="block w-full rounded-md bg-gray-200 border-b-2 border-gray-300 shadow-lg p-2 focus:outline-stone-800"
               />
             </div>
             <div className="mt-12 md:mt-15 lg:mt-20">
@@ -28,7 +28,7 @@ const Contact = () => {
                 id="email"
                 autoComplete="email"
                 placeholder="Email"
-                className="block w-full rounded-md bg-white  border-b-2 border-gray-300 shadow-md p-2 focus:outline-stone-800"
+                className="block w-full rounded-md bg-gray-200  border-b-2 border-gray-300 shadow-lg p-2 focus:outline-stone-800"
               />
             </div>
             <div className="mt-12 md:mt-15 lg:mt-20">
@@ -37,7 +37,7 @@ const Contact = () => {
                 id="message"
                 autoComplete="message"
                 placeholder="Message"
-                className="block w-full rounded-md bg-white border-b-2 border-gray-300 shadow-md p-2 focus:outline-stone-800"
+                className="block w-full rounded-md bg-gray-200 border-b-2 border-gray-300 shadow-lg p-2 focus:outline-stone-800"
               />
             </div>
             <div className="mt-10 w-full flex justify-center">
