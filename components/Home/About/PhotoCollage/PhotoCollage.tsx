@@ -4,7 +4,7 @@ import React from "react";
 
 const PhotoCollage = () => {
   return (
-    <div className="mt-10">
+    <div>
       <div className="h-full w-full flex flex-row relative">
         <div className="bg-gray-200 p-5 h-[380px] lg:h-[440px] w-[280px] lg:w-[320px] flex flex-col justify-center items-center rotate-12 active:-rotate-5 lg:hover:-rotate-5 active:scale-104 lg:hover:scale-104 transition-all duration-500 shadow-2xl shadow-gray-400">
           <div className="w-full h-full absolute "></div>
