@@ -29,7 +29,7 @@ const PhotoCollage = () => {
           <h1 className={`${bric.className} font-semibold text-gray-900`}>
             style-by.Eti
           </h1>
-        </div>{" "}
+        </div>
       </div>
     </div>
   );

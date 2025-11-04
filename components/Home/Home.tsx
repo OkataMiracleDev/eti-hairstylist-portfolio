@@ -2,6 +2,7 @@ import { ala } from "@/app/font";
 import React from "react";
 import About from "./About/page";
 import Image from "next/image";
+import HomeGallery from "./HomeGallery/HomeGallery";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
         </div>
 
         <About />
+        <HomeGallery />
       </div>
     </div>
   );
