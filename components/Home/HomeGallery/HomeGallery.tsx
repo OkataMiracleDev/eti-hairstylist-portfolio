@@ -58,7 +58,7 @@ const HomeGallery = () => {
         <div className="absolute right-10 md:right-40 top-93 md:top-106 active:rotate-6 transition-all duration-500 rotate-20">
           <Collage title="#3" image="/hair/hair-3.jpg" />
         </div>
-        <div className="absolute left-50 md:left-95 top-135 md:top-130 active:-rotate-12 transition-all duration-500 rotate-6 z-20">
+        <div className="absolute left-50 md:left-95 top-135 md:top-130 active:rotate-12 transition-all duration-500 -rotate-6 z-20">
           <Collage title="#4" image="/hair/hair-4.jpg" />
         </div>
         <div className="absolute right-20 md:right-65 top-170 md:top-200 active:rotate-6 transition-all duration-500 rotate-16">
