@@ -39,6 +39,39 @@ const HomeGallery = () => {
           <Collage title="#8" image="/hair/hair-8.jpg" />
         </div>
       </div>
+      <div className="w-[160%] h-300 relative lg:hidden flex flex-col ">
+        <Image
+          src={"/svg/line-mobile.svg"}
+          alt="gallery-line"
+          width={2000}
+          height={2000}
+          className="w-full h-full object-contain"
+        />
+        <div className="absolute right-20 md:right-60 top-23 md:top-26 active:rotate-12 transition-all duration-500 rotate-6">
+          <Collage title="#1" image="/hair/hair-1.jpg" />
+        </div>
+        <div className="absolute left-10 md:left-55 top-63 md:top-66 active:-rotate-12 transition-all duration-500 rotate-20">
+          <Collage title="#2" image="/hair/hair-2.jpg" />
+        </div>
+        <div className="absolute right-10 md:right-40 top-93 md:top-106 active:rotate-6 transition-all duration-500 rotate-20">
+          <Collage title="#3" image="/hair/hair-3.jpg" />
+        </div>
+        <div className="absolute left-50 md:left-95 top-110 md:top-130 active:-rotate-12 transition-all duration-500 rotate-6">
+          <Collage title="#4" image="/hair/hair-4.jpg" />
+        </div>
+        <div className="absolute right-20 md:right-65 top-170 md:top-200 active:rotate-6 transition-all duration-500 rotate-16">
+          <Collage title="#5" image="/hair/hair-5.jpg" />
+        </div>
+        <div className="absolute left-28 md:left-35 top-175 md:top-160 active:-rotate-6 transition-all duration-500 rotate-8 z-10">
+          <Collage title="#6" image="/hair/hair-6.jpg" />
+        </div>
+        <div className="absolute left-10 md:left-40 top-225 md:top-235 active:rotate-6 transition-all duration-500 -rotate-16">
+          <Collage title="#7" image="/hair/hair-7.jpg" />
+        </div>
+        <div className="absolute right-20 md:right-50 top-255 md:top-275 active:-rotate-6 transition-all duration-500 rotate-16">
+          <Collage title="#8" image="/hair/hair-8.jpg" />
+        </div>
+      </div>
     </div>
   );
 };
