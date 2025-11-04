@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 /* === Animated Dotted Background === */
+/*
 .animated-bg {
   background-color: #f7f7f7;
   background-image: radial-gradient(rgba(120, 80, 255, 0.9) 6%, transparent 6%),
@@ -10,7 +11,7 @@
   animation: moveDots 2s linear infinite;
   filter: drop-shadow(0 0 6px rgba(120, 80, 255, 0.6));
 }
-/*
+
 @keyframes moveDots {
   from {
     background-position: 0 0, 30px 30px;
