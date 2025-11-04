@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Gallery = () => {
@@ -11,11 +12,18 @@ const Gallery = () => {
           Here you can see a selection of my work.
         </p>
 
-        <div className="w-full flex flex-col md:flex-row justify-center gap-1">
-          <div className="bg-black w-full h-80">1</div>
+        <div className="w-full grid grid-cols-1 md:grid-cols-3 justify-center gap-1">
+          <div className="bg-black w-full h-80">
+            <Image src="/hair/hair-1.jpg" alt="1" width={2000} height={2000} />
+          </div>
           <div className="bg-black w-full h-110">1</div>
           <div className="bg-black w-full h-65">1</div>
+          <div className="bg-black md:-mt-30 w-full h-80">1</div>
+          <div className="bg-black w-full h-70">1</div>
+          <div className="bg-black md:-mt-45 w-full h-100">1</div>
+          <div className="bg-black md:hidden w-full h-65">1</div>
         </div>
+        <div className="bg-black hidden md:flex md:-mt-4 w-full h-80">1</div>
       </div>
     </div>
   );
