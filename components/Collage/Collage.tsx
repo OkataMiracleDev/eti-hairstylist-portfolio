@@ -12,7 +12,7 @@ interface CollageProps {
 
 export default function Collage({ image, title }: CollageProps) {
   return (
-    <div>
+    <div data-aos="fade-up">
       <div className="bg-gray-100 p-3 h-[180px] md:h-[200px] w-[130px] md:w-[150px] lg:h-[270px] lg:w-[200px] flex flex-col justify-center items-center active:scale-106 lg:hover:scale-104 transition-all duration-500 shadow-xl shadow-gray-500">
         <div className="w-full h-full absolute"></div>
         <Image

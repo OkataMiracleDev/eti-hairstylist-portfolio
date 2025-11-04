@@ -3,11 +3,14 @@ import PhotoCollage from "./PhotoCollage/PhotoCollage";
 
 const About = () => {
   return (
-    <div className="mt-40 md:mt-0 lg:-mt-10 flex flex-col gap-8">
+    <div
+      data-aos="fade-up"
+      className="mt-40 md:mt-0 lg:-mt-10 flex flex-col gap-8 overflow-visible"
+    >
       <h1 className="text-xl md:text-3xl lg:text-5xl lg:text-center font-bold text-gray-900">
         About Me &amp; My Creation
       </h1>
-      <div className="h-fit w-[full] px-2 lg:px-0 grid grid-rows-2 lg:grid-cols-2 gap-2 md:gap-4 lg:gap-2">
+      <div className="h-fit w-full px-2 lg:px-0 grid grid-rows-2 lg:grid-cols-2 gap-2 md:gap-4 lg:gap-2">
         <div className="flex flex-col gap-4 text-gray-700 text-base md:text-lg lg:text-xl">
           <p>
             I’m <span className="font-semibold text-gray-900">Eti, </span> a{" "}

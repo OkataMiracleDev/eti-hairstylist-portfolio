@@ -3,7 +3,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div id="contact" className="mt-20">
+    <div data-aos="fade-up" id="contact" className="mt-20">
       <div className="flex flex-col justify-center items-center w-full">
         <h1 className="text-xl md:text-3xl lg:text-5xl lg:text-center font-bold text-gray-900">
           Contact
@@ -43,7 +43,7 @@ const Contact = () => {
             <div className="mt-10 w-full flex justify-center">
               <button
                 type="submit"
-                className={`${ala.className} rounded-md bg-stone-800 text-purple-200 hover:text-purple-300 hover:bg-stone-600 px-10 py-2`}
+                className={`${ala.className} rounded-md bg-stone-800 text-purple-200 hover:text-purple-300 hover:bg-stone-600 active-px-20 hover:px-20 px-10 py-2 transition-all duration-500`}
               >
                 <p className="text-base lg:text-lg ">Send</p>
               </button>

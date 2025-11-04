@@ -1,13 +1,29 @@
+"use client";
+
 import { ala } from "@/app/font";
-import React from "react";
+import React, { useEffect } from "react";
 import About from "./About/page";
 import Image from "next/image";
 import HomeGallery from "./HomeGallery/HomeGallery";
 import FlowerButton from "../flowerButton";
 import Link from "next/link";
 import Contact from "./Contact/Contact";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Home = () => {
+  useEffect(() => {
+    const initAOS = async () => {
+      await import("aos");
+      AOS.init({
+        duration: 500,
+        easing: "ease-in-out",
+        once: true,
+        anchorPlacement: "top-bottom",
+      });
+    };
+    initAOS();
+  }, []);
   return (
     <div className="md:pt-30">
       <div className="flex flex-col space-y-10 md:space-y-15 lg:space-y-25">

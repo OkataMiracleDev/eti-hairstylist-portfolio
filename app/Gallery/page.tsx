@@ -3,7 +3,7 @@ import React from "react";
 
 const Gallery = () => {
   return (
-    <div className="relative w-full overflow-y-auto overflow-x-hidden px-5 md:px-20">
+    <div className="relative w-full overflow-x-hidden px-5 md:px-20">
       <div className="pt-30 w-full flex flex-col gap-5 justify-center items-center">
         <h1 className="text-xl md:text-3xl lg:text-5xl lg:text-center font-bold text-gray-900">
           Gallery
