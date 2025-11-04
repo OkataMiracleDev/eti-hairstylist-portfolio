@@ -10,12 +10,12 @@ export type FootLink = {
 export const navLinks = [
   {
     id: 1,
-    url: "#",
+    url: "/Gallery",
     label: "Gallery",
   },
   {
     id: 2,
-    url: "#contact",
+    url: "/#contact",
     label: "Contact",
   },
 ];
