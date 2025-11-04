@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div className="flex bg-gray-100 shadow-md px-6 md:px-10 fixed top-0 left-0 right-0 z-50">
       <div className="flex justify-between items-center gap-8 md:gap-10 py-4 md:py-8 w-full">
-        <div className="h-10">
+        <Link href="/" className="h-10">
           <Image
             src={"/logo/logo-mobile.png"}
             width={1000}
@@ -15,7 +15,7 @@ const Navbar = () => {
             alt="logo"
             className="w-[50%] md:w-full h-full object-contain"
           />
-        </div>
+        </Link>
 
         <div className="flex flex-row gap-5 md:gap-10">
           {navLinks.map((link) => (

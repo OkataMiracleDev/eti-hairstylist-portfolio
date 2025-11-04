@@ -1,8 +1,9 @@
+import { ala } from "@/app/font";
 import React from "react";
 
 const Contact = () => {
   return (
-    <div className="mt-20">
+    <div id="contact" className="mt-20">
       <div className="flex flex-col justify-center items-center w-full">
         <h1 className="text-xl md:text-3xl lg:text-5xl lg:text-center font-bold text-gray-900">
           Contact
@@ -38,6 +39,14 @@ const Contact = () => {
                 placeholder="Message"
                 className="block w-full rounded-md border-b-2 border-gray-300 shadow-md p-2 focus:outline-stone-800"
               />
+            </div>
+            <div className="mt-10 w-full flex justify-center">
+              <button
+                type="submit"
+                className={`${ala.className} rounded-md bg-stone-800 text-purple-200 hover:text-purple-300 hover:bg-stone-600 px-10 py-2`}
+              >
+                <p className="text-base lg:text-lg ">Send</p>
+              </button>
             </div>
           </div>
         </form>

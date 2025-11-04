@@ -19,13 +19,13 @@ const Home = () => {
             height={1000}
             alt="style-by.eti"
             className="w-full h-full object-contain"
-          />{" "}
+          />
         </div>
 
         <About />
         <HomeGallery />
         <Link href="/" className="w-full mt-10 flex justify-center">
-          <FlowerButton text="Gallery" />
+          <FlowerButton text="View More" />
         </Link>
         <Contact />
       </div>

@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html className="scroll-smooth" lang="en">
       <body className={`${bric.className} antialiased h-dvh relative`}>
         {/* Animated background (global) */}
         <div className="animated-bg fixed inset-0 -z-10"></div>

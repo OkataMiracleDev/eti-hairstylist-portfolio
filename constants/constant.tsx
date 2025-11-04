@@ -1,5 +1,4 @@
-import { FaInstagram, FaXTwitter } from "react-icons/fa6";
-import { FaGithub } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa6";
 import { ReactNode } from "react";
 
 export type FootLink = {
@@ -16,7 +15,7 @@ export const navLinks = [
   },
   {
     id: 2,
-    url: "#",
+    url: "#contact",
     label: "Contact",
   },
 ];
