@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 /* === Animated Dotted Background === */
-/* .animated-bg {
+.animated-bg {
   background-color: #f7f7f7;
   background-image: radial-gradient(rgba(120, 80, 255, 0.9) 6%, transparent 6%),
     radial-gradient(rgba(120, 80, 255, 0.9) 6%, transparent 6%);
@@ -18,7 +18,7 @@
   to {
     background-position: -60px 0, -30px 30px;
   }
-} */
+} 
 
 /* Flower button */
 .btn {
