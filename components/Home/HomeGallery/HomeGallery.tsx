@@ -7,12 +7,13 @@ const HomeGallery = () => {
   return (
     <div className="md:mt-10 lg:-mt-180 flex flex-col items-center">
       <div className="w-[120%] h-300 relative hidden lg:flex flex-col ">
+        <div className="w-full h-full absolute"></div>
         <Image
           src={"/svg/line-pc.svg"}
           alt="gallery-line"
           width={2000}
           height={2000}
-          className="w-full h-full object-contain"
+          className="w-full h-full object-contain -z-10"
         />
         <div className="absolute top-65 left-150 hover:rotate-12 transition-all duration-500 rotate-6">
           <Collage title="#1" image="/hair/hair-1.jpg" />
@@ -40,12 +41,13 @@ const HomeGallery = () => {
         </div>
       </div>
       <div className="w-[160%] h-300 relative lg:hidden flex flex-col ">
+        <div className="w-full h-full absolute"></div>
         <Image
           src={"/svg/line-mobile.svg"}
           alt="gallery-line"
           width={2000}
           height={2000}
-          className="w-full h-full object-contain"
+          className="w-full h-full object-contain -z-10"
         />
         <div className="absolute right-20 md:right-60 top-43 md:top-26 active:rotate-12 transition-all duration-500 rotate-6">
           <Collage title="#1" image="/hair/hair-1.jpg" />
@@ -56,13 +58,13 @@ const HomeGallery = () => {
         <div className="absolute right-10 md:right-40 top-93 md:top-106 active:rotate-6 transition-all duration-500 rotate-20">
           <Collage title="#3" image="/hair/hair-3.jpg" />
         </div>
-        <div className="absolute left-50 md:left-95 top-135 md:top-130 active:-rotate-12 transition-all duration-500 rotate-6">
+        <div className="absolute left-50 md:left-95 top-135 md:top-130 active:-rotate-12 transition-all duration-500 rotate-6 z-20">
           <Collage title="#4" image="/hair/hair-4.jpg" />
         </div>
         <div className="absolute right-20 md:right-65 top-170 md:top-200 active:rotate-6 transition-all duration-500 rotate-16">
           <Collage title="#5" image="/hair/hair-5.jpg" />
         </div>
-        <div className="absolute left-28 md:left-35 top-175 md:top-160 active:-rotate-6 transition-all duration-500 rotate-8 z-10">
+        <div className="absolute left-20 md:left-35 top-175 md:top-160 active:-rotate-6 transition-all duration-500 rotate-8 z-10">
           <Collage title="#6" image="/hair/hair-6.jpg" />
         </div>
         <div className="absolute left-10 md:left-40 top-225 md:top-235 active:rotate-6 transition-all duration-500 -rotate-16">
