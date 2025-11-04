@@ -16,9 +16,11 @@ export default function RootLayout({
 }>) {
   return (
     <html className="scroll-smooth" lang="en">
-      <body className={`${bric.className} antialiased h-dvh relative`}>
-        {/* Animated background (global) */}
-        <div className="animated-bg fixed inset-0 -z-10"></div>
+      <body
+        className={`${bric.className} circuit-wrapper antialiased relative min-h-screen`}
+      >
+        {/* Full-page background */}
+        <div className="circuit-background fixed inset-0 -z-10"></div>
 
         {/* Foreground content */}
         <Navbar />
