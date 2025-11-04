@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div
       // data-aos="fade-up"
-      className="mt-40 md:mt-0 lg:-mt-10 h-90rem flex flex-col gap-8"
+      className="mt-40 md:mt-0 lg:-mt-10 h-[80rem] flex flex-col gap-8"
     >
       <h1 className="text-xl md:text-3xl lg:text-5xl lg:text-center font-bold text-gray-900">
         About Me &amp; My Creation
