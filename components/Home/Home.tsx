@@ -5,10 +5,11 @@ import Image from "next/image";
 import HomeGallery from "./HomeGallery/HomeGallery";
 import FlowerButton from "../flowerButton";
 import Link from "next/link";
+import Contact from "./Contact/Contact";
 
 const Home = () => {
   return (
-    <div className="pb-20 md:pt-30">
+    <div className="md:pt-30">
       <div className="flex flex-col space-y-10 md:space-y-15 lg:space-y-25">
         {/* Logo */}
         <div className="hidden md:block w-full h-[300px] ">
@@ -26,6 +27,7 @@ const Home = () => {
         <Link href="/" className="w-full mt-10 flex justify-center">
           <FlowerButton text="Gallery" />
         </Link>
+        <Contact />
       </div>
     </div>
   );
