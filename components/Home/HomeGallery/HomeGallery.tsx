@@ -7,7 +7,7 @@ const HomeGallery = () => {
   return (
     <div
       data-aos="fade-up"
-      className="md:mt-10 lg:-mt-180 flex flex-col items-center"
+      className="md:mt-10 lg:-mt-150 flex flex-col items-center"
     >
       <div className="w-[120%] h-300 relative hidden lg:flex flex-col ">
         <div className="w-full h-full absolute"></div>
