@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { bric } from "./font";
+import Navbar from "@/components/Navbar/Navbar";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -14,7 +15,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${bric.className} antialiased h-dvh`}>{children}</body>
+      <body className={`${bric.className} antialiased h-dvh relative`}>
+        {/* Animated background (global) */}
+        <div className="animated-bg fixed inset-0 -z-10"></div>
+
+        {/* Foreground content */}
+        <Navbar />
+        <main className="relative z-10">{children}</main>
+      </body>
     </html>
   );
 }
