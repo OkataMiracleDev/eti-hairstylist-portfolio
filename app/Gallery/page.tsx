@@ -19,7 +19,7 @@ const Gallery = () => {
               alt="1"
               width={2000}
               height={2000}
-              className="w-full h-full object-covers"
+              className="w-full h-full object-cover"
             />
           </div>
           <div className="bg-black w-full h-110">1</div>
