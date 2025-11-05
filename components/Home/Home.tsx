@@ -40,7 +40,7 @@ const Home = () => {
 
         <About />
         <HomeGallery />
-        <Link href="/" className="w-full mt-10 flex justify-center">
+        <Link href="/Gallery" className="w-full mt-10 flex justify-center">
           <FlowerButton text="View More" />
         </Link>
         <Contact />
