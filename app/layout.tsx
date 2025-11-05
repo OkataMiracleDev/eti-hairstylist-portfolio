@@ -59,9 +59,9 @@ export const metadata: Metadata = {
     googleBot: {
       index: true,
       follow: true,
-      maxSnippet: -1,
-      maxImagePreview: "large",
-      maxVideoPreview: -1,
+      "max-snippet": -1,
+      "max-image-preview": "large",
+      "max-video-preview": -1,
     },
   },
   icons: {
@@ -81,9 +81,7 @@ export default function RootLayout({
     url: "https://style-by-eti.vercel.app/",
     description:
       "Hairstylist portfolio by Eti showcasing braiding, plaiting, coloring, and grooming with artistic, expressive hair designs.",
-    sameAs: [
-      "https://www.instagram.com/style_by.eti/"
-    ],
+    sameAs: ["https://www.instagram.com/style_by.eti/"],
     potentialAction: {
       "@type": "SearchAction",
       target: "https://style-by-eti.vercel.app/?q={search_term_string}",
