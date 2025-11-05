@@ -3,10 +3,7 @@ import PhotoCollage from "./PhotoCollage/PhotoCollage";
 
 const About = () => {
   return (
-    <div
-      // data-aos="fade-up"
-      className=" flex flex-col gap-8"
-    >
+    <div data-aos="fade-up" className=" flex flex-col gap-8">
       <h1 className="text-xl md:text-3xl lg:text-5xl lg:text-center font-bold text-gray-900">
         About Me &amp; My Creation
       </h1>
@@ -45,7 +42,6 @@ const About = () => {
             experimenting with color, and creating pieces that feel bold yet
             authentic.
           </p>
-
         </div>
 
         <PhotoCollage />

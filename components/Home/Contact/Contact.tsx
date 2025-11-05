@@ -9,43 +9,73 @@ const Contact = () => {
           Contact
         </h1>
 
-        <form className="w-full lg:w-2/3">
-          <div>
-            <div className="mt-12 md:mt-15 lg:mt-20">
-              <input
-                type="text"
-                name="fullName"
-                id="fullName"
-                autoComplete="name"
-                placeholder="Name"
-                className="block w-full rounded-md bg-gray-200 border-b-2 border-gray-300 shadow-lg p-2 focus:outline-stone-800"
-              />
+        <form className="w-full lg:w-2/3 mt-10">
+          <div className="bg-gray-100/70 backdrop-blur rounded-xl border border-gray-300 shadow-xl hover:relative hover:bottom-2 active:relative active:bottom-2 hover:shadow-2xl active:shadow-2xl p-6 md:p-8 transition-all ease-in-out duration-500">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="flex flex-col">
+                <label
+                  htmlFor="fullName"
+                  className="text-sm font-medium text-gray-700"
+                >
+                  Full Name
+                </label>
+                <input
+                  type="text"
+                  name="fullName"
+                  id="fullName"
+                  autoComplete="name"
+                  placeholder="Jane Doe"
+                  required
+                  className="mt-2 block w-full rounded-md bg-white/80 border border-gray-300 shadow-sm p-3 text-gray-900 placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-stone-700"
+                  aria-label="Full Name"
+                />
+              </div>
+              <div className="flex flex-col">
+                <label
+                  htmlFor="email"
+                  className="text-sm font-medium text-gray-700"
+                >
+                  Email
+                </label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  autoComplete="email"
+                  placeholder="jane@example.com"
+                  required
+                  className="mt-2 block w-full rounded-md bg-white/80 border border-gray-300 shadow-sm p-3 text-gray-900 placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-stone-700"
+                  aria-label="Email"
+                />
+              </div>
             </div>
-            <div className="mt-12 md:mt-15 lg:mt-20">
-              <input
-                type="email"
-                name="email"
-                id="email"
-                autoComplete="email"
-                placeholder="Email"
-                className="block w-full rounded-md bg-gray-200  border-b-2 border-gray-300 shadow-lg p-2 focus:outline-stone-800"
-              />
-            </div>
-            <div className="mt-12 md:mt-15 lg:mt-20">
+
+            <div className="mt-6 flex flex-col">
+              <label
+                htmlFor="message"
+                className="text-sm font-medium text-gray-700"
+              >
+                Message
+              </label>
               <textarea
                 name="message"
                 id="message"
-                autoComplete="message"
-                placeholder="Message"
-                className="block w-full rounded-md bg-gray-200 border-b-2 border-gray-300 shadow-lg p-2 focus:outline-stone-800"
+                autoComplete="off"
+                placeholder="Tell me about the look you want..."
+                rows={5}
+                required
+                className="mt-2 block w-full rounded-md bg-white/80 border border-gray-300 shadow-sm p-3 text-gray-900 placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-stone-700"
+                aria-label="Message"
               />
             </div>
-            <div className="mt-10 w-full flex justify-center">
+
+            <div className="mt-8 w-full flex justify-center">
               <button
                 type="submit"
-                className={`${ala.className} rounded-md bg-stone-800 text-purple-200 hover:text-purple-300 hover:bg-stone-600 active-px-20 hover:px-20 px-10 py-2 transition-all duration-500`}
+                className={`${ala.className} inline-flex items-center rounded-md bg-stone-800 text-purple-100 hover:text-purple-200 active:text-purple-200 hover:bg-stone-700 active:bg-stone-700 px-8 hover:px-20 active:px-20 py-3 transition-all duration-300 shadow-md focus:outline-none focus:ring-2 focus:ring-stone-700`}
+                aria-label="Send message"
               >
-                <p className="text-base lg:text-lg ">Send</p>
+                <span className="text-base md:text-lg font-semibold">Send</span>
               </button>
             </div>
           </div>

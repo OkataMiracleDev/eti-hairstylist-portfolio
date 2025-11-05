@@ -19,7 +19,7 @@ const PhotoCollage = () => {
             I am Eti
           </h1>
         </div>
-        <div className="bg-gray-200 p-5 h-[380px] lg:h-[440px] w-[280px] lg:w-[320px] flex flex-col justify-center items-center -rotate-12 active:rotate-5 lg:hover:rotate-5 active:scale-104 lg:hover:scale-104 transition-all duration-500 absolute right-0 mt-90 md:mt-65 lg:mt-2 shadow-2xl shadow-gray-400">
+        <div className="bg-gray-200 p-5 h-[380px] lg:h-[440px] w-[280px] lg:w-[320px] flex flex-col justify-center items-center -rotate-12 active:rotate-5 lg:hover:rotate-5 active:scale-104 lg:hover:scale-104 transition-all duration-500 absolute right-0 md:right-6 mt-90 md:mt-45 lg:mt-2 shadow-2xl shadow-gray-400">
           <div className="w-full h-full absolute "></div>
           <Image
             src="/eti/eti-2.jpg"

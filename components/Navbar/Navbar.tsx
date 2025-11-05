@@ -7,16 +7,18 @@ const Navbar = () => {
   return (
     <div className="flex bg-gray-100 shadow-md px-6 md:px-10 fixed top-0 left-0 right-0 z-50">
       <div className="flex justify-between items-center gap-8 md:gap-10 py-4 md:py-5 w-full">
-        <Link href="/" className="h-10">
+        {/* Logo */}
+        <Link href="/" className="h-10 flex items-center">
           <Image
             src={"/logo/logo-mobile.png"}
             width={500}
             height={500}
-            alt="logo"
+            alt="Style by Eti logo"
             className="w-[50%] md:w-full h-full object-contain"
           />
         </Link>
 
+        {/* Nav */}
         <div className="flex flex-row gap-5 md:gap-10">
           {navLinks.map((link) => (
             <Link key={link.id} href={link.url}>

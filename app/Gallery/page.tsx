@@ -1,5 +1,20 @@
 import Image from "next/image";
 import React from "react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Gallery",
+  description: "Browse the Style by Eti gallery — a curated selection of expressive hair designs: braids, plaits, color, and grooming.",
+  alternates: { canonical: "/Gallery" },
+  openGraph: {
+    title: "Gallery | Style by Eti",
+    description: "A curated selection of expressive hair designs by Eti.",
+    url: "https://style-by-eti.vercel.app/Gallery",
+    images: [
+      { url: "/ig-page.jpg", width: 1200, height: 630, alt: "Style by Eti gallery preview" },
+    ],
+  },
+};
 
 const Gallery = () => {
   return (
@@ -16,7 +31,7 @@ const Gallery = () => {
           <div className="bg-black w-full h-80 overflow-hidden relative">
             <Image
               src="/hair/hair-1.jpg"
-              alt="1"
+              alt="Braided hairstyle close-up 1"
               width={500}
               height={500}
               className="w-full h-full object-cover block active:scale-120 hover:scale-120 transition-all duration-500"
@@ -26,7 +41,7 @@ const Gallery = () => {
           <div className="bg-black w-full h-110 overflow-hidden relative">
             <Image
               src="/hair/hair-3.jpg"
-              alt="2"
+              alt="Textured hairstyle artistic shot 2"
               width={500}
               height={500}
               className="w-full h-full object-cover object-bottom block active:scale-120 hover:scale-120 transition-all duration-500"
@@ -36,7 +51,7 @@ const Gallery = () => {
           <div className="bg-black w-full h-65 overflow-hidden relative">
             <Image
               src="/hair/hair-2.jpg"
-              alt="3"
+              alt="Plaited hairstyle portrait 3"
               width={500}
               height={500}
               className="w-full h-full object-cover object-center lg:object-top block active:scale-120 hover:scale-120 transition-all duration-500"
@@ -46,7 +61,7 @@ const Gallery = () => {
           <div className="bg-black md:-mt-30 w-full h-80 overflow-hidden relative">
             <Image
               src="/hair/hair-4.jpg"
-              alt="4"
+              alt="Color-treated hairstyle detail 4"
               width={500}
               height={500}
               className="w-full h-full object-cover object-center block active:scale-120 hover:scale-120 transition-all duration-500"
@@ -56,7 +71,7 @@ const Gallery = () => {
           <div className="bg-black w-full h-70 overflow-hidden relative">
             <Image
               src="/hair/hair-7.jpg"
-              alt="5"
+              alt="Groomed hairstyle lookbook 5"
               width={500}
               height={500}
               className="w-full h-full object-cover object-center block active:scale-120 hover:scale-120 transition-all duration-500"
@@ -66,7 +81,7 @@ const Gallery = () => {
           <div className="bg-black md:-mt-45 w-full h-100 overflow-hidden relative">
             <Image
               src="/hair/hair-6.jpg"
-              alt="6"
+              alt="Creative hairstyle composition 6"
               width={500}
               height={500}
               className="w-full h-full object-cover object-center block active:scale-120 hover:scale-120 transition-all duration-500"
@@ -76,7 +91,7 @@ const Gallery = () => {
           <div className="bg-black md:hidden w-full h-65 overflow-hidden relative">
             <Image
               src="/hair/hair-8.jpg"
-              alt="8"
+              alt="Editorial hairstyle wide shot 8"
               width={500}
               height={500}
               className="w-full h-full object-cover object-top block active:scale-120 hover:scale-120 transition-all duration-500"
@@ -87,7 +102,7 @@ const Gallery = () => {
         <div className="bg-black hidden md:flex md:-mt-4 w-full h-80 overflow-hidden relative">
           <Image
             src="/hair/hair-8.jpg"
-            alt="8"
+            alt="Editorial hairstyle wide shot 8"
             width={500}
             height={500}
             className="w-full h-full object-cover object-top block active:scale-120 hover:scale-120 transition-all duration-500"
