@@ -7,7 +7,7 @@ const About = () => {
       <h1 className="text-xl md:text-3xl lg:text-5xl lg:text-center font-bold text-gray-900">
         About Me &amp; My Creation
       </h1>
-      <div className="h-fit w-full px-2 lg:px-0 grid grid-rows-2 lg:grid-cols-2 gap-2 md:gap-4 lg:gap-2">
+      <div className="h-fit w-full px-2 lg:px-0 grid grid-rows-2 lg:grid-cols-2 gap-1 md:gap-3 lg:gap-1">
         <div className="flex flex-col gap-4 text-gray-700 text-base md:text-lg lg:text-xl">
           <p className="active:bg-purple-400 rounded-md p-2 transition-all duration-400">
             I’m <span className="font-semibold text-gray-900">Eti, </span> a{" "}
