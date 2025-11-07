@@ -9,7 +9,7 @@ const About = () => {
       </h1>
       <div className="h-fit w-full px-2 lg:px-0 grid grid-rows-2 lg:grid-cols-2 gap-2 md:gap-4 lg:gap-2">
         <div className="flex flex-col gap-4 text-gray-700 text-base md:text-lg lg:text-xl">
-          <p className="active:bg-purple-400 p-2">
+          <p className="active:bg-purple-400 rounded-md p-2">
             I’m <span className="font-semibold text-gray-900">Eti, </span> a{" "}
             <span className="text-gray-900">
               stylist, artist, and creative mind
@@ -22,7 +22,7 @@ const About = () => {
             Each strand, braid, and color choice becomes part of a visual
             language that celebrates individuality.
           </p>
-          <p className="active:bg-purple-400 p-2">
+          <p className="active:bg-purple-400 rounded-md p-2">
             I specialize in{" "}
             <span className="font-semibold text-gray-900">
               braiding, plaiting, coloring, and grooming
@@ -32,7 +32,7 @@ const About = () => {
             blending structure with flow, precision with creativity, and trends
             with timeless artistry.
           </p>
-          <p className="active:bg-purple-400 p-2">
+          <p className="active:bg-purple-400 rounded-md p-2">
             My inspiration comes from{" "}
             <span className="font-semibold text-gray-900">
               fashion, culture, and everyday beauty
